@@ -1,0 +1,108 @@
+         .btn-grad {
+             display: inline;
+             background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+             margin: 10px;
+             padding: 15px 45px;
+             text-align: center;
+             text-transform: uppercase;
+             transition: 0.5s;
+             background-size: 200% auto;
+             color: white;
+             box-shadow: 0 0 20px #eee;
+             border-radius: 10px;
+             border: none;
+         }
+
+        .btn-grad:hover {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+        }
+
+         .search-form {
+             display: flex;
+             justify-content: center;
+             flex-wrap: wrap;
+             align-items: center;
+             background: #f7f7f7;
+             padding: 20px;
+             border-radius: 10px;
+             box-shadow: 0 0 20px #eee;
+             max-width: 100%;
+             margin-left:auto;
+         }
+
+         .input {
+             display: inline;
+             background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+             margin: 10px;
+             padding: 15px 45px;
+             text-align: center;
+             text-transform: uppercase;
+             transition: 0.5s;
+             background-size: 200% auto;
+             color: white;
+             box-shadow: 0 0 20px #eee;
+             border-radius: 10px;
+             border: none;
+             outline: none;
+             font-size: 16px;
+         }
+
+         .input::placeholder {
+            background-color: #72A0C1;
+             color: #eee;
+             text-transform: none;
+             
+         }
+        .input:hover {
+                     background-position: right center;
+                     color: #fff;
+                     text-decoration: none;
+                 }
+
+         body {
+            background-color: #8BC6EC;
+                background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+                
+         }
+
+                 .gallery {
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     gap: 50px;
+                     flex-wrap: wrap;
+                 }
+        
+                 .photo-card {
+                     width: 250px;
+                     height: 250px;
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: center;
+                     align-items: center;
+                     border: 1px solid #314755;
+                     border-radius: 15px;
+                     padding: 15px;
+                     
+                 }
+        
+                 .photo-card img {
+                     width: 100%;
+                     height: 100%;
+                     
+                 }
+        
+                 .info {
+                     display: flex;
+                     font-size: 12px;
+                     gap: 5px;
+                 }
+        
+                 .info:hover {
+                     color:#fff ;
+                     cursor: pointer;
+                 }
+
+                 
